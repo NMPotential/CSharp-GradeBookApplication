@@ -6,7 +6,7 @@ namespace GradeBook.GradeBooks
 {
     public class RankedGradeBook : BaseGradeBook //Add colon to inheret BaseGradeBook class
     {
-        public RankedGradeBook(string name) : base(name) //Creates call to base constructor
+        public RankedGradeBook(string name, bool isWeighted) : base(name, isWeighted) //Creates call to base constructor
         {
             Type = GradeBookType.Ranked;
         }
